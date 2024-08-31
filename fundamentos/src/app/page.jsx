@@ -1,8 +1,7 @@
-import Image from "next/image";
+import Estiloso from "./components/estiloso";
 
 export default function Home() {
   return (
-    <teste>
-    </teste>
+    <Estiloso></Estiloso>
   );
 }
