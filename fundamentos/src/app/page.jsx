@@ -1,7 +1,11 @@
 import Estiloso from "./components/estiloso";
+import Header from "./components/header";
 
 export default function Home() {
   return (
-    <Estiloso></Estiloso>
+    <div>
+      <Header titulo="Home"/>
+      <Estiloso/>
+    </div>
   );
 }
